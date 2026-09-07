@@ -20,8 +20,6 @@ It includes development projects, video editing work and ways to get in touch.
 - HTML5
 - CSS3
 - JavaScript
-- Python
-- C#
 
 ## Project Status
 
