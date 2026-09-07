@@ -31,7 +31,7 @@ The portfolio is continuously being improved and updated with new projects and w
 
 ## Live Portfolio
 
-[Visit my portfolio](https://dyuxport.github.io)
+[Visit my portfolio](https://portfolio.github.io)
 
 ## Author
 
