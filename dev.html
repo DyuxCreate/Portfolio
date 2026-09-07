@@ -5,16 +5,25 @@
 
     <meta charset="UTF-8">
 
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <meta name="description"
-        content="Dyux — Portfólio de Desenvolvimento Web">
+    <title>DYUX — Development</title>
 
-    <title>Dyux — Desenvolvimento Web</title>
+    <meta
+        name="description"
+        content="DYUX — Desenvolvimento web e projetos digitais."
+    >
 
-    <!-- ÍCONE DA ABA -->
-    <link rel="icon" type="image/png" href="ado.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
 
     <link rel="stylesheet" href="dev.css">
 
@@ -24,209 +33,147 @@
 <body>
 
 
-<header>
+    <!-- CURSOR -->
 
-    <nav class="navbar">
+    <div class="dyux-cursor">
 
-        <a href="index.html" class="logo">
+        <div class="cursor-orbit"></div>
 
-            DYUX<span>.</span>
+        <div class="cursor-main"></div>
+
+        <div class="cursor-cross">
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="cursor-trail"></div>
+
+        <div class="cursor-label">
+            VIEW
+        </div>
+
+    </div>
+
+
+
+    <!-- HEADER -->
+
+    <header class="site-header">
+
+
+        <a href="index.html" class="brand">
+
+            <img
+                src="ado.png"
+                alt="DYUX"
+                class="logo-image"
+            >
+
+            <span class="logo-name">
+                DYUX
+            </span>
 
         </a>
 
 
-        <div class="nav-links">
 
-            <a href="index.html">
-                Início
-            </a>
+        <div class="header-center">
 
-            <a href="video.html">
-                Vídeo
-            </a>
+            <span>
+                WEB
+            </span>
 
-            <a href="dev.html" class="active">
-                Desenvolvimento
-            </a>
+            <span class="header-slash">
+                /
+            </span>
 
-            <a href="contato.html">
-                Contato
-            </a>
+            <span>
+                DEVELOPMENT
+            </span>
 
         </div>
 
-    </nav>
-
-</header>
 
 
-<main>
+        <div class="header-right">
 
-
-<section class="hero">
-
-    <div class="hero-content">
-
-        <p class="label">
-            DYUX / DEVELOPMENT
-        </p>
-
-
-        <h1>
-
-            Código que
+            <span class="availability-dot"></span>
 
             <span>
-                vira experiência.
+                AVAILABLE
             </span>
 
-        </h1>
+        </div>
 
-
-        <p class="hero-description">
-
-            Desenvolvimento de websites e interfaces
-            digitais com foco em performance,
-            responsividade e design.
-
-        </p>
 
 
         <a
-            href="#projetos"
-            class="hero-button">
-
-            Explorar projeto ↓
-
+            href="index.html"
+            class="header-back"
+        >
+            ← VOLTAR
         </a>
 
-    </div>
+
+    </header>
 
 
-    <div class="code-decoration">
 
-        <div>
-            <span>&lt;</span>div
-        </div>
-
-        <div>
-            &nbsp;&nbsp;class="creative"
-        </div>
-
-        <div>
-            &gt;
-        </div>
-
-        <div>
-            &nbsp;&nbsp;create();
-        </div>
-
-        <div>
-            <span>&lt;</span>/div<span>&gt;</span>
-        </div>
-
-    </div>
-
-</section>
+    <main>
 
 
-<section
-    class="projects-section"
-    id="projetos">
+        <!-- HERO -->
+
+        <section class="dev-hero">
 
 
-    <div class="section-heading">
+            <div class="hero-meta">
 
-        <div>
+                <span>
+                    001 / WEB
+                </span>
 
-            <span>
-                01
-            </span>
-
-            <h2>
-                Projeto
-            </h2>
-
-        </div>
-
-
-        <p>
-
-            Um projeto real desenvolvido para web.
-
-        </p>
-
-    </div>
-
-
-    <div class="projects">
-
-
-        <article class="project">
-
-
-            <div class="project-preview">
-
-                <div class="browser">
-
-                    <div class="browser-top">
-
-                        <div class="dots">
-                            <i></i>
-                            <i></i>
-                            <i></i>
-                        </div>
-
-
-                        <div class="address">
-                            anavoydstudio.com.br
-                        </div>
-
-                    </div>
-
-
-                    <div class="browser-content">
-
-                        <div class="anavoyd-title">
-                            ANAVOYD
-                        </div>
-
-                        <div class="fake-line"></div>
-
-                        <div class="fake-line small"></div>
-
-                        <div class="fake-button">
-                            ENTER
-                        </div>
-
-                    </div>
-
-                </div>
+                <span>
+                    ONLINE
+                </span>
 
             </div>
 
 
-            <div class="project-info">
+
+            <div class="hero-title">
+
+                <span>
+                    EU FAÇO
+                </span>
+
+                <strong>
+                    SITES.
+                </strong>
+
+                <span>
+                    E MAIS UMAS
+                </span>
+
+                <span>
+                    COISAS.
+                </span>
+
+            </div>
 
 
-                <p class="category">
-                    WEB DEVELOPMENT
-                </p>
 
-
-                <h3>
-                    Anavoyd Studio
-                </h3>
-
+            <div class="hero-bottom">
 
                 <p>
-                    Website desenvolvido para o
-                    Anavoyd Studio, apresentando o
-                    projeto e sua identidade visual.
+                    Eu gosto de pegar uma ideia,
+                    colocar no código e ver ela
+                    funcionando de verdade.
                 </p>
 
 
-                <div class="technologies">
+
+                <div class="hero-code">
 
                     <span>
                         HTML
@@ -237,271 +184,811 @@
                     </span>
 
                     <span>
-                        JavaScript
+                        JS
+                    </span>
+
+                    <span>
+                        UI
                     </span>
 
                 </div>
 
+            </div>
+
+
+        </section>
+
+
+
+        <!-- PROJECTS -->
+
+        <section class="projects">
+
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span>
+                        01
+                    </span>
+
+                    <p>
+                        PROJETOS
+                    </p>
+
+                </div>
+
+
+
+                <h2>
+
+                    O QUE EU
+
+                    <strong>
+                        JÁ FIZ.
+                    </strong>
+
+                </h2>
+
+            </div>
+
+
+
+            <div class="project-list">
+
+
+                <!-- DYUX PORTFOLIO -->
 
                 <a
-                    href="https://anavoydstudio.com.br"
+                    href="https://dyuxcreate.github.io/Portfolio/"
                     target="_blank"
-                    rel="noopener noreferrer">
+                    rel="noopener noreferrer"
+                    class="project-card"
+                >
 
-                    Visitar projeto →
 
+                    <div class="project-index">
+                        001
+                    </div>
+
+
+
+                    <div class="project-main">
+
+
+                        <div class="project-title">
+
+                            <span>
+                                PORTFÓLIO PESSOAL
+                            </span>
+
+                            <h3>
+
+                                DYUX
+
+                                <em>
+                                    PORTFOLIO.
+                                </em>
+
+                            </h3>
+
+                        </div>
+
+
+
+                        <p>
+                            Meu próprio portfólio.
+                            Fiz do zero para juntar
+                            meus trabalhos de web,
+                            vídeo e motion em um lugar só.
+                        </p>
+
+
+
+                        <div class="project-tags">
+
+                            <span>
+                                HTML
+                            </span>
+
+                            <span>
+                                CSS
+                            </span>
+
+                            <span>
+                                JAVASCRIPT
+                            </span>
+
+                            <span>
+                                UI
+                            </span>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="project-arrow">
+                        ↗
+                    </div>
+
+
+                </a>
+
+
+
+                <!-- ANAVOYD -->
+
+                <a
+                    href="https://anavoydstudio.com.br/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-card"
+                >
+
+
+                    <div class="project-index">
+                        002
+                    </div>
+
+
+
+                    <div class="project-main">
+
+
+                        <div class="project-title">
+
+                            <span>
+                                STUDIO / GAME
+                            </span>
+
+                            <h3>
+
+                                ANAVOYD
+
+                                <em>
+                                    STUDIO.
+                                </em>
+
+                            </h3>
+
+                        </div>
+
+
+
+                        <p>
+                            Site do Anavoyd Studio.
+                            Um projeto independente focado
+                            em jogos e no projeto atual
+                            YET NO7/NOT.
+                        </p>
+
+
+
+                        <div class="project-tags">
+
+                            <span>
+                                WEB
+                            </span>
+
+                            <span>
+                                UI
+                            </span>
+
+                            <span>
+                                BRANDING
+                            </span>
+
+                            <span>
+                                GAME DEV
+                            </span>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="project-arrow">
+                        ↗
+                    </div>
+
+
+                </a>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- SERVICES -->
+
+        <section class="services">
+
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span>
+                        02
+                    </span>
+
+                    <p>
+                        O QUE EU FAÇO
+                    </p>
+
+                </div>
+
+
+
+                <h2>
+
+                    EU
+
+                    <strong>
+                        TRABALHO.
+                    </strong>
+
+                </h2>
+
+            </div>
+
+
+
+            <div class="services-grid">
+
+
+                <article class="service-card">
+
+                    <span class="service-number">
+                        01
+                    </span>
+
+                    <h3>
+                        SITES
+                    </h3>
+
+                    <p>
+                        Landing pages, portfólios
+                        e sites completos.
+                    </p>
+
+                </article>
+
+
+
+                <article class="service-card">
+
+                    <span class="service-number">
+                        02
+                    </span>
+
+                    <h3>
+                        FRONT-END
+                    </h3>
+
+                    <p>
+                        HTML, CSS e JavaScript
+                        para colocar o layout de pé.
+                    </p>
+
+                </article>
+
+
+
+                <article class="service-card">
+
+                    <span class="service-number">
+                        03
+                    </span>
+
+                    <h3>
+                        UI
+                    </h3>
+
+                    <p>
+                        Interfaces que sejam bonitas
+                        sem esquecer de funcionar.
+                    </p>
+
+                </article>
+
+
+
+                <article class="service-card">
+
+                    <span class="service-number">
+                        04
+                    </span>
+
+                    <h3>
+                        IDEIAS
+                    </h3>
+
+                    <p>
+                        Se a ideia for boa,
+                        dá pra transformar em projeto.
+                    </p>
+
+                </article>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- STACK -->
+
+        <section class="stack">
+
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span>
+                        03
+                    </span>
+
+                    <p>
+                        FERRAMENTAS
+                    </p>
+
+                </div>
+
+
+
+                <h2>
+
+                    O QUE EU
+
+                    <strong>
+                        USO.
+                    </strong>
+
+                </h2>
+
+            </div>
+
+
+
+            <div class="stack-list">
+
+
+                <div class="stack-item">
+
+                    <span>
+                        01
+                    </span>
+
+                    HTML5
+
+                </div>
+
+
+
+                <div class="stack-item">
+
+                    <span>
+                        02
+                    </span>
+
+                    CSS3
+
+                </div>
+
+
+
+                <div class="stack-item">
+
+                    <span>
+                        03
+                    </span>
+
+                    JAVASCRIPT
+
+                </div>
+
+
+
+                <div class="stack-item">
+
+                    <span>
+                        04
+                    </span>
+
+                    RESPONSIVE
+
+                </div>
+
+
+
+                <div class="stack-item">
+
+                    <span>
+                        05
+                    </span>
+
+                    GIT
+
+                </div>
+
+
+
+                <div class="stack-item">
+
+                    <span>
+                        06
+                    </span>
+
+                    GITHUB
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- CTA -->
+
+        <section class="dev-cta">
+
+
+            <div class="cta-number">
+                004
+            </div>
+
+
+
+            <div class="cta-content">
+
+                <span>
+                    TEM UM PROJETO?
+                </span>
+
+
+
+                <h2>
+
+                    MANDA
+
+                    <strong>
+                        A IDEIA.
+                    </strong>
+
+                </h2>
+
+
+
+                <a
+                    href="contato.html"
+                    class="cta-link"
+                >
+                    FALE COMIGO ↗
                 </a>
 
             </div>
 
-        </article>
 
-    </div>
-
-</section>
+        </section>
 
 
-<section class="about">
+    </main>
 
 
-    <div class="section-heading">
 
-        <div>
+    <!-- FOOTER -->
 
-            <span>
-                02
-            </span>
-
-            <h2>
-                Sobre
-            </h2>
-
-        </div>
-
-    </div>
+    <footer class="site-footer">
 
 
-    <div class="about-grid">
+        <div class="footer-brand">
 
-
-        <h3>
-
-            Desenvolver não é apenas
-            escrever código.
+            <div class="footer-mark">
+                D
+            </div>
 
             <span>
-                É resolver problemas.
+                DYUX
             </span>
 
-        </h3>
-
-
-        <div class="about-text">
-
-            <p>
-
-                Gosto de desenvolver projetos que
-                combinam código, design e uma boa
-                experiência para quem está utilizando.
-
-            </p>
-
-
-            <p>
-
-                Meu foco está no desenvolvimento
-                Front-End e na criação de interfaces
-                para web.
-
-            </p>
-
         </div>
 
-    </div>
-
-</section>
 
 
-<section class="skills">
+        <div class="footer-links">
 
+            <a href="index.html">
+                HOME
+            </a>
 
-    <div class="section-heading">
+            <a href="dev.html">
+                WEB
+            </a>
 
-        <div>
+            <a href="video.html">
+                VIDEO
+            </a>
 
-            <span>
-                03
-            </span>
-
-            <h2>
-                Tecnologias
-            </h2>
-
-        </div>
-
-    </div>
-
-
-    <div class="skills-grid">
-
-
-        <div class="skill">
-
-            <span>01</span>
-
-            <h3>
-                HTML
-            </h3>
-
-            <p>
-                Estrutura e organização de páginas web.
-            </p>
+            <a href="contato.html">
+                CONTATO
+            </a>
 
         </div>
 
 
-        <div class="skill">
 
-            <span>02</span>
+        <div class="footer-status">
 
-            <h3>
-                CSS
-            </h3>
+            <span class="availability-dot"></span>
 
-            <p>
-                Layouts, responsividade e interfaces.
-            </p>
+            ONLINE
 
         </div>
 
 
-        <div class="skill">
-
-            <span>03</span>
-
-            <h3>
-                JavaScript
-            </h3>
-
-            <p>
-                Interatividade e lógica para web.
-            </p>
-
-        </div>
+    </footer>
 
 
-        <div class="skill">
 
-            <span>04</span>
+    <!-- CURSOR SCRIPT -->
 
-            <h3>
-                React
-            </h3>
+    <script>
 
-            <p>
-                Desenvolvimento de interfaces.
-            </p>
-
-        </div>
+        const cursor =
+            document.querySelector(".dyux-cursor");
 
 
-        <div class="skill">
+        let mouseX =
+            window.innerWidth / 2;
 
-            <span>05</span>
-
-            <h3>
-                Git
-            </h3>
-
-            <p>
-                Controle e versionamento de projetos.
-            </p>
-
-        </div>
+        let mouseY =
+            window.innerHeight / 2;
 
 
-        <div class="skill">
+        let currentX =
+            mouseX;
 
-            <span>06</span>
-
-            <h3>
-                GitHub
-            </h3>
-
-            <p>
-                Hospedagem e colaboração.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
+        let currentY =
+            mouseY;
 
 
-<section class="contact">
+        let previousX =
+            mouseX;
 
-    <p class="label">
-        04 / CONTATO
-    </p>
-
-
-    <h2>
-
-        Vamos transformar
-
-        <span>
-            uma ideia em código.
-        </span>
-
-    </h2>
+        let previousY =
+            mouseY;
 
 
-    <a
-        href="contato.html"
-        class="contact-button">
 
-        Entrar em contato →
+        document.addEventListener(
+            "mousemove",
+            (event) => {
 
-    </a>
+                mouseX =
+                    event.clientX;
 
-</section>
+                mouseY =
+                    event.clientY;
 
-
-</main>
-
-
-<footer>
-
-    <div class="footer-logo">
-
-        DYUX<span>.</span>
-
-    </div>
+            }
+        );
 
 
-    <p>
-        Desenvolvedor Web
-    </p>
+
+        function animateCursor() {
 
 
-    <div class="footer-links">
+            const dx =
+                mouseX - currentX;
 
-        <a href="video.html">
-            Vídeo
-        </a>
+            const dy =
+                mouseY - currentY;
 
-        <a href="dev.html">
-            Desenvolvimento
-        </a>
 
-        <a href="contato.html">
-            Contato
-        </a>
+            currentX +=
+                dx * 0.16;
 
-    </div>
+            currentY +=
+                dy * 0.16;
 
-</footer>
+
+
+            const velocityX =
+                mouseX - previousX;
+
+            const velocityY =
+                mouseY - previousY;
+
+
+            const speed =
+                Math.min(
+                    Math.sqrt(
+                        velocityX * velocityX +
+                        velocityY * velocityY
+                    ),
+                    35
+                );
+
+
+            const stretch =
+                1 + speed * 0.018;
+
+
+            const angle =
+                Math.atan2(
+                    velocityY,
+                    velocityX
+                ) * 180 / Math.PI;
+
+
+
+            cursor.style.left =
+                `${currentX}px`;
+
+            cursor.style.top =
+                `${currentY}px`;
+
+
+            cursor.style.setProperty(
+                "--cursor-speed",
+                speed
+            );
+
+            cursor.style.setProperty(
+                "--cursor-angle",
+                `${angle}deg`
+            );
+
+            cursor.style.setProperty(
+                "--cursor-stretch",
+                stretch
+            );
+
+
+            previousX =
+                mouseX;
+
+            previousY =
+                mouseY;
+
+
+            requestAnimationFrame(
+                animateCursor
+            );
+
+        }
+
+
+        animateCursor();
+
+
+
+        const interactiveElements =
+            document.querySelectorAll(
+                "a, button"
+            );
+
+
+
+        interactiveElements.forEach(
+            (element) => {
+
+
+                element.addEventListener(
+                    "mouseenter",
+                    () => {
+
+
+                        cursor.classList.add(
+                            "cursor-hover"
+                        );
+
+
+                        const label =
+                            element.dataset.cursor ||
+                            (
+                                element.target === "_blank"
+                                    ? "OPEN"
+                                    : "VIEW"
+                            );
+
+
+                        cursor
+                            .querySelector(
+                                ".cursor-label"
+                            )
+                            .textContent =
+                            label;
+
+                    }
+                );
+
+
+
+                element.addEventListener(
+                    "mouseleave",
+                    () => {
+
+                        cursor.classList.remove(
+                            "cursor-hover"
+                        );
+
+                    }
+                );
+
+
+            }
+        );
+
+
+
+        document.addEventListener(
+            "mousedown",
+            () => {
+
+                cursor.classList.add(
+                    "cursor-click"
+                );
+
+            }
+        );
+
+
+
+        document.addEventListener(
+            "mouseup",
+            () => {
+
+                cursor.classList.remove(
+                    "cursor-click"
+                );
+
+            }
+        );
+
+
+
+        document.addEventListener(
+            "mouseleave",
+            () => {
+
+                cursor.classList.add(
+                    "cursor-hidden"
+                );
+
+            }
+        );
+
+
+
+        document.addEventListener(
+            "mouseenter",
+            () => {
+
+                cursor.classList.remove(
+                    "cursor-hidden"
+                );
+
+            }
+        );
+
+    </script>
 
 
 </body>
